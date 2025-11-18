@@ -56,7 +56,7 @@ create_and_display_table() {
 
     # Table dimensions
     local col1_width=18
-    local col2_width=100
+    local col2_width=110
     local total_inner_width=$((col1_width + col2_width + 2))
 
     # Helper function to create a line of characters

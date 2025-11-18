@@ -29,7 +29,7 @@ output = json
     - [ ] Run:
 
 ```bash
-source /Users/mohamedshabaan/Workspace/Data/Devops/aws/helpers/main.sh
+source /path/aws-cli-helpers/main.sh
 ```
 
   - **Permanent (every new shell):**
@@ -120,7 +120,7 @@ Notes:
 
 ### 8) Uninstall / Disable
 
-- [ ] Remove or comment the `source /Users/mohamedshabaan/Workspace/Data/Devops/aws/helpers/main.sh` line from:
+- [ ] Remove or comment the `source /path/aws-cli-helpers/main.sh` line from:
   - [ ] `~/.zshrc` (Zsh) or
   - [ ] `~/.bashrc` / `~/.bash_profile` (Bash)
 - [ ] Restart your terminal (or re-source the rc file)
